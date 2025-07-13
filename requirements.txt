@@ -1,0 +1,8 @@
+pypdf
+python-dotenv 
+google-generativeai
+langchain
+langchain_community
+langchain_chroma
+langchain_core
+gradio

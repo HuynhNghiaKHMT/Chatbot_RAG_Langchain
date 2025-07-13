@@ -1,0 +1,13 @@
+__pycache__/
+
+.env
+
+chatbot_env/
+Chorma_db_01/
+chroma_db_evaluation/
+data/LSVN.csv
+TinyLlama-1.1B-Chat-v1.0/
+
+chatbot.ipynb
+chatbot-v3.ipynb
+evaluate.ipynb
