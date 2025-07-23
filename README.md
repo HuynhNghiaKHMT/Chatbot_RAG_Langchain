@@ -1,31 +1,21 @@
-# Build Chatbot with Naive RAG (LangChain)
-Notebook này triển khai nhanh việc xây dựng chatbot và truy xuất thông tin trên dữ liệu (document: PDF, doc,..)các nhân bằng cách sử dụng truy vấn ngữ nghĩa (`Sematic retriever`) và truy vấn từ khóa (`Keywork retriever - BM25`) từ framework LangChain.
+## 🎯 Overview
+Notebook này triển khai nhanh việc xây dựng chatbot với RAG từ cơ bản đến năng cao
 
-## 1. Giới thiệu về các công nghệ được sử dụng:
+## 📚 Topic  Structure
+| Module | Topic | Description |
+|--------|-------|-------------|
+| 1 | [Native RAG](01-Native-Rag) | Truy vấn ngữ nghĩa và truy vấn từ khóa. |
+| 2 | [Multimodal RAG](02-Multimodal-Rag) | Trích xuất text, table, image trong tài liệu. |
+
+
+## 🛠 Công nghệ được sử dụng:
 - Framework: `LangChain`
-- LLM: `Gemini` (version: `gemini-2.0-flash`)
-- Embedding: `Hugging Face` (model: `all-MiniLM-L6-v2`)
-- Vector database: `Chroma BD`
-- Keywork retriever: `BM25`
+- Open Source: `Gemini`, `OpenAI`, `Groq`, `Hugging Face`  
+- Vector database: `Chroma BD`, `Qdrant BD`
+- Extract document: `Docling`
+- Mini application: `Gradio`
 
-## 2. Cách chạy
-### 1. Clone hoặc tải xuống kho lưu trữ
+## ⚡Quick Start
 ```bash
-git clone https://github.com/HuynhNghiaKHMT/Chatbot_NaiveRAG_Langchain
+git clone https://github.com/HuynhNghiaKHMT/Chatbot_RAG_Langchain
 ```
-
-### 2. Cài đặt các thư viện cần thiết
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Tạo API Key với Gemini
-Truy cập vào trang [Google AI Studio API key](https://aistudio.google.com/app/apikey) để tạo API Key. Cấu hình đường dẫn sau vào tệp `.env`.
-
-```bash
-GOOGLE_API_KEY="YOUR API KEY"
-```
-
-### 4. Demo
-Sử dụng thư viện `gradio` giúp ta tạo giao diện chatbot nhanh để thử nghiệm.

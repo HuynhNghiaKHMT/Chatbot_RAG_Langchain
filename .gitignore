@@ -1,13 +1,20 @@
 __pycache__/
 
 .env
+.vscode
+chatbot_env
 
-chatbot_env/
-Chorma_db_01/
-chroma_db_evaluation/
+01-Native-Rag/chroma_db
+01-Native-Rag/Chorma_db_example
+02-Multimodal-Rag/chroma_db_multimodal_rag
+02-Multimodal-Rag/content
+
 data/LSVN.csv
-TinyLlama-1.1B-Chat-v1.0/
+data/Huyết khối tĩnh mạch não.pdf
+chroma_db_evaluation
+TinyLlama-1.1B-Chat-v1.0
 
-chatbot.ipynb
 chatbot-v3.ipynb
 evaluate.ipynb
+extract_table.py
+Mutil_RAG_v3.ipynb
