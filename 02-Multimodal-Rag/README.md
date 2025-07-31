@@ -39,7 +39,6 @@ GROQ_API_KEY="YOUR API KEY"
 Sử dụng thư viện `gradio` giúp tạo giao diện chatbot nhanh để thử nghiệm.
 
 <img src="../assets/02-Multimodal-Rag-Gradio-01.png" width="100%">
-<img src="../assets/02-Multimodal-Rag-Gradio-02.png" width="100%">
 
 ## Tài liệu tham khảo
 * [How to Use Multimodal RAG to Extract Text, Images, & Tables (with Demos)](https://github.com/debnsuma/fcc-ai-engineering-aws/tree/main/03-multimodal-rag)

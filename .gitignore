@@ -8,7 +8,14 @@ chatbot_env
 01-Native-Rag/Chorma_db_example
 02-Multimodal-Rag/chroma_db_multimodal_rag
 02-Multimodal-Rag/content
+03-Multimodal-Rag-V2/content_v1
+03-Multimodal-Rag-V2/content_v2
+03-Multimodal-Rag-V2/content_v3
+03-Multimodal-Rag-V2/chroma_db_v1
+03-Multimodal-Rag-V2/chroma_db_v2
+03-Multimodal-Rag-V2/chroma_db_v3
 
+assets/8x
 data/LSVN.csv
 data/Huyết khối tĩnh mạch não.pdf
 chroma_db_evaluation
@@ -17,4 +24,3 @@ TinyLlama-1.1B-Chat-v1.0
 chatbot-v3.ipynb
 evaluate.ipynb
 extract_table.py
-Mutil_RAG_v3.ipynb
